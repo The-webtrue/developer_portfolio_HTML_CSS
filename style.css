@@ -10,6 +10,10 @@ h1
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 span
 {
     color: orangered;
@@ -39,24 +43,28 @@ h3
     color: blanchedalmond; 
 }
 
-section
+.flexbale-container
 {
     display: flex;
     margin-bottom: 150px;
    
+}
+.orange-color
+{
+    color: orangered;
 }
 
 .half-width
 {
     width: 50%;
     padding-left: 5%;
+    padding-right: 4%;
 }
 
 .half-width img
 {
     width: 88%;
-    
-    
+
 }
 
 .top-banner
@@ -71,4 +79,42 @@ section
     background-repeat: no-repeat;
     background-position: right;
     
+}
+
+.experiences-p
+{
+    display: flex;
+}
+
+.experiences-section
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.shadow
+{
+    width: 40%;
+    margin-left:5% ;
+    margin-right: 5%;
+    padding-left: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+#full-s-dev
+{
+    border-left: 5px solid orangered ;
+}
+
+#baby-web
+{
+    border-left: 5px solid blue ;
+}
+
+footer
+{
+    text-align: center;
+    color: gray;
 }
